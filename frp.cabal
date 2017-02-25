@@ -1,0 +1,16 @@
+name:                frp
+version:             0.1.0.0
+license:             BSD3
+license-file:        LICENSE
+author:              Arguggi
+maintainer:          git@arguggi.co.uk
+build-type:          Simple
+extra-source-files:  ChangeLog.md
+cabal-version:       >=1.10
+
+executable frp
+  main-is:             h.hs
+  build-depends:       base >=4.9 && <4.10
+                     , reflex
+                     , relfex-dom
+  default-language:    Haskell2010
