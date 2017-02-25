@@ -2,6 +2,14 @@ resolver: lts-7.8
 
 packages:
 - location: '.'
+- location:
+    git: https://github.com/reflex-frp/reflex
+    commit: 91299fce0bb2caddfba35af6608df57dd31e3690
+  extra-dep: true
+- location:
+    git: https://github.com/hamishmack/reflex-dom
+    commit: d9842742183a800cf1f98f89d42d849d52dd2d67
+  extra-dep: true
 
 extra-deps:
 - ghcjs-dom-0.7.0.3
@@ -12,6 +20,3 @@ extra-deps:
 - prim-uniq-0.1.0.1
 - ref-tf-0.4.0.1
 - zenc-0.1.1
-
-nix:
-  enable: true

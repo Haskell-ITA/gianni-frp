@@ -9,8 +9,8 @@ extra-source-files:  ChangeLog.md
 cabal-version:       >=1.10
 
 executable frp
-  main-is:             h.hs
+  main-is:             Main.hs
   build-depends:       base >=4.9 && <4.10
-                     , reflex
-                     , relfex-dom
+                     , reflex-dom
+                     , jsaddle
   default-language:    Haskell2010
